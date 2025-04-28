@@ -30,7 +30,7 @@ export default function Contact() {
 
        <section className="p-5 space-y-5 text-lg">
             <h1 className="font-extrabold text-4xl">Get in Touch</h1>
-            <p className="text-lg">Contact us for any type of queries. We're here to support you, whether you need prayer or simply want to connect.</p>
+            <p className="text-lg">Contact us for any type of queries. We&apos;re here to support you, whether you need prayer or simply want to connect.</p>
             
             {/* <h1 className="text-3xl font-bold text-white mb-4">JTLOW</h1> */}
             <div className="flex items-center gap-3"><Mail color="red" /><p className="opacity-70">jesustruelightoftheworld@gmail.com</p></div>

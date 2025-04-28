@@ -80,7 +80,7 @@ export default function App() {
           <Card icon={<BellElectric color="red"/>} title="Distribution" description="Distribute electronic devices with the Word of God where human access is limited." />
           </span>
           
-          <p className="text-lg font-bold mt-15 md:text-xl">"Your giving brings Jesus to places where no one else can go."</p>
+          <p className="text-lg font-bold mt-15 md:text-xl">&quot;Your giving brings Jesus to places where no one else can go.&quot;</p>
 
       <Link href="/donate">
       <button className="bg-orange-500 max-w-2xl font-bold w-full py-3 rounded-lg text-white hover:opacity-90 transition active:bg-orange-600">Donate</button>
