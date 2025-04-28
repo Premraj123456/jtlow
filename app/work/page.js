@@ -8,7 +8,7 @@ export default function OurWork() {
   return (
 <>
     <section className="bg-black text-white p-5 space-y-7 py-13">
-    <h1 className="font-extrabold text-4xl">Every step we're taking leads us to the Kingdom of God.</h1>
+    <h1 className="font-extrabold text-4xl">Every step we&apos;re taking leads us to the Kingdom of God.</h1>
     {/* <button className="bg-orange-500 font-bold w-full py-3 rounded-lg hover:opacity-80 transition active:bg-orange-600">Donate</button> */}
 
    </section>

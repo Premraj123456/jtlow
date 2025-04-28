@@ -38,7 +38,7 @@ export default function About() {
 
       <section className="p-5 space-y-7 text-center py-11 px-14">
         <h2 className="font-extrabold text-3xl">Our Beliefs</h2>
-        <p className="text-xl">Discover our unwavering beliefs at Church - rooted in God's Word, and centered on His love and grace.</p>
+        <p className="text-xl">Discover our unwavering beliefs at Church - rooted in God&apos;s Word, and centered on His love and grace.</p>
       </section>
 
 
