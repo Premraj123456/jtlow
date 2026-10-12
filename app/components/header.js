@@ -26,21 +26,21 @@ export default function Header() {
     </SheetHeader>
 
     <div className="flex flex-col p-4 pt-9 gap-3">
-      <a href="/about" className="hover:underline"><p className="text-xl font-bold">About</p></a>
-      <a href="/work" className="hover:underline"><p className="text-xl font-bold">Our Work</p></a>
-      <a href="/legal" className="hover:underline"><p className="text-xl font-bold">Legal</p></a>
-      <a href="/donate" className="hover:underline"><p className="text-xl font-bold">Donate</p></a>
-      <a href="/contact" className="hover:underline"><p className="text-xl font-bold">Contact Us</p></a>
+      <p className="text-xl font-bold hover:underline"><Link href="/about">About</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/work">Our Work</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/legal">Legal</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/donate">Donate</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/contact">Contact Us</Link></p>
     </div>
   </SheetContent>
 </Sheet>
 
 <div className=" p-4  gap-5 hidden lg:flex font-bold">
-      <a href="/about" className="hover:underline"><p className="text-xl font-bold">About</p></a>
-      <a href="/work" className="hover:underline"><p className="text-xl font-bold">Our Work</p></a>
-      <a href="/legal" className="hover:underline"><p className="text-xl font-bold">Legal</p></a>
-      <a href="/donate" className="hover:underline"><p className="text-xl font-bold">Donate</p></a>
-      <a href="/contact" className="hover:underline"><p className="text-xl font-bold">Contact Us</p></a>
+      <p className="text-xl font-bold hover:underline"><Link href="/about">About</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/work">Our Work</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/legal">Legal</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/donate">Donate</Link></p>
+      <p className="text-xl font-bold hover:underline"><Link href="/contact">Contact Us</Link></p>
     </div>
 
     </header>

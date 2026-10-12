@@ -47,7 +47,7 @@ export default function Contact() {
                 <input   required className="bg-gray-100 rounded-lg h-10 mb-3 p-4" type="email" name="email" />
 
                 <label className="text-sm">Message</label>
-                <textarea  required className="bg-gray-100 rounded-lg h-10 mb-5 p-4" type="text" name="message" />
+                <textarea required className="bg-gray-100 rounded-lg min-h-28 mb-5 p-4" name="message" rows={5} />
             
                 <button type="submit"  className="bg-orange-600 flex justify-center gap-2 text-white font-bold w-full py-3 rounded-lg hover:opacity-80 transition active:bg-orange-700 mb-2">Submit</button>
                 {/* { success ? <p className="text-green-600 mb-4 text-center font-semibold text-[17px]">Thanks for your message! We will get back soon.</p> : null} */}

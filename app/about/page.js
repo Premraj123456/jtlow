@@ -31,7 +31,8 @@ export default function About() {
 
    <section className="p-5 space-y-7 text-center py-11 px-14">
         <h2 className="font-extrabold text-3xl">Discover the heart and vision behind Our Organization</h2>
-        <p className="text-xl">To build churches in disconnected villages, form daily outreach teams, and share God’s Word through digital devices to those we physically cannot reach.</p>
+        <p className="mx-auto w-fit rounded-lg bg-black px-3 py-1 font-bold text-white">Founded in 2024 · Trust Reg. No. 16/2024, Telangana</p>
+        <p className="text-xl">To build churches in disconnected villages, form daily outreach teams, and share God’s Word through digital devices — including Bible-based AI films — to those we physically cannot reach.</p>
       </section>
 
       <ThyagarajPaul />

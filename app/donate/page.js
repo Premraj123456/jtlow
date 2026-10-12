@@ -14,8 +14,9 @@ export default function Donate() {
 
        <section className="p-5 space-y-8 text-center py-11 ">
         <h2 className="font-extrabold text-3xl">Ways to Support</h2>
-        <p className="text-lg">Generosity is our privilege at our Organization, as we follow the example of Jesus who was first generous towards us. Join us in fulfilling our vision to make a positive impact in the community and around the world.</p>
-        
+        <p className="text-lg mx-auto max-w-3xl">Generosity is our privilege at our Organization, as we follow the example of Jesus who was first generous towards us. Join us in fulfilling our vision to make a positive impact in the community and around the world.</p>
+
+        <div className="mx-auto grid max-w-6xl gap-4 text-left md:grid-cols-2 lg:grid-cols-3">
         <PayCard title="PayPal" description="Secure international donations in any currency through your PayPal account or linked card." link="https://paypal.me/prempayment"/>
         <PayCard title="UPI (India)" description="Quick and easy domestic giving using UPI apps like PhonePe, Google Pay, or Paytm." link="" />
         <PayCard title="Indian Bank Transfer" description="Direct bank deposits for donors within India via NEFT/IMPS/RTGS." link="" />
@@ -28,6 +29,7 @@ export default function Donate() {
         <PayCard title="CAD – Canadian Bank Transfer" description="Canadian donors can directly contribute via our secure CAD banking option." link="" />
         <PayCard title="HUF – Hungarian Forint Transfer" description="Support our mission from Hungary with local currency transfers." link="" />
         <PayCard title="SGD – Singapore Dollar Transfer" description="Donate in Singapore Dollars to our SGD account securely and fast." link="" />
+        </div>
 {/* 
         <button className="bg-orange-500 text-white font-bold w-full py-3 rounded-lg hover:opacity-80 transition active:bg-orange-600">Donate with Paypal</button>
         <button className="bg-orange-500 text-white font-bold w-full py-3 rounded-lg hover:opacity-80 transition active:bg-orange-600">India - UPI</button>

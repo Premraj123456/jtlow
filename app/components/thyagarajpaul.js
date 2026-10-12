@@ -4,7 +4,7 @@ export default function ThyagarajPaul() {
   return (
     <div className="p-4 space-y-5 md:px-30 lg:px-30">
         <section className=" lg:flex lg:flex-row">
-           <Image className="w-full lg:w-auto lg:h-fit mb-8 rounded-2xl" src={"/photos/thyagarajpaul.png"} width={1000} height={1000} alt="logo" />
+           <Image className="w-full lg:w-auto lg:h-fit mb-8 rounded-2xl" src={"/photos/thyagarajpaul.png"} width={1000} height={1000} alt="Thyagaraj Paul, Founder and Lead Pastor of JTLOW" />
            
            <div className="lg:ml-6 space-y-5">
            

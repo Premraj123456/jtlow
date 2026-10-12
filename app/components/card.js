@@ -12,17 +12,29 @@ export default function Card({title, description, icon}) {
 }
 
 export function PayCard({title, description, link}) {
+  const hasLink = Boolean(link);
   return (
     <div className=" shadow-lg rounded-2xl p-5 space-y-2 text-left">
       <h3 className="font-bold text-2xl">{title}</h3>
       <p className="text-lg">{description}</p>
-      
-      
-        <a href={link} className="flex items-center gap-1 ">
-          
-          <a className="hover:opacity-80 text-black font-bold py-1">Donate Now</a>
-          <ArrowRight />
-        </a>
+
+
+        {hasLink ? (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 font-bold text-black hover:opacity-80"
+          >
+            Donate Now
+            <ArrowRight />
+          </a>
+        ) : (
+          <p className="flex items-center gap-1 font-bold text-gray-400">
+            Details coming soon
+            <ArrowRight />
+          </p>
+        )}
      {/* <p>Bank details here if from wise</p> */}
       
     </div>

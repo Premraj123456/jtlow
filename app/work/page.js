@@ -15,41 +15,43 @@ export default function OurWork() {
 
     <main className="p-5 space-y-5">
 
-      
-      <h1 className="font-extrabold text-4xl">Gallery</h1>
-      <p className="text-lg">From village outreaches to baptisms and prayer meetings, every moment reflects our mission—spreading the light of Jesus where it’s never been before.</p>
-       
-       <a href="https://youtube.com/@agape-love">
+      <h1 className="font-extrabold text-4xl">Faith Films &amp; Digital Media</h1>
+      <p className="text-lg">We produce Christian, faith, and Bible-based AI films to strengthen the faith of believers and spread the Gospel through digital media — reaching screens and hearts in places our teams cannot physically go. New films release on our YouTube channel.</p>
+
+       <a href="https://youtube.com/@agape-love" target="_blank" rel="noopener noreferrer">
 
        <button className="bg-red-600 flex justify-center gap-2 text-white font-bold w-full py-3 rounded-lg hover:opacity-80 transition active:bg-orange-600"> <Youtube />  <p>View on Youtube</p></button>
        </a>
 
+      <h1 className="font-extrabold text-4xl pt-5">Gallery</h1>
+      <p className="text-lg">From village outreaches to baptisms and prayer meetings, every moment reflects our mission—spreading the light of Jesus where it’s never been before.</p>
+
        <section className="grid grid-cols-2 gap-2 py-5">
-        <Image className="col-span-2 rounded-lg" src={"/AmazonPhotos/1.jpg"} width={1000} height={1000}/>
+        <Image className="col-span-2 rounded-lg" alt="Village outreach gathering" src={"/AmazonPhotos/1.jpg"} width={1000} height={1000}/>
         {/* <Image src={"/photos/1.jpeg"} width={1000} height={1000}/> */}
-        <Image className="rounded-lg" src={"/AmazonPhotos/1.jpg"} width={1000} height={1000}/>
-        <Image className="rounded-lg"  src={"/AmazonPhotos/3.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/4.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/5.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Church fellowship in an unreached village" src={"/AmazonPhotos/1.jpg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Preaching the Gospel outdoors" src={"/AmazonPhotos/3.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Community prayer meeting" src={"/AmazonPhotos/4.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Worshippers gathered together" src={"/AmazonPhotos/5.jpeg"} width={1000} height={1000}/>
 
-        <Image className="col-span-2 rounded-lg" src={"/photos/4.jpeg"} width={1000} height={1000}/>
+        <Image className="col-span-2 rounded-lg" alt="Baptism celebration" src={"/photos/4.jpeg"} width={1000} height={1000}/>
 
-        <Image className="rounded-lg" src={"/AmazonPhotos/6.jpg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Gospel outreach to the streets" src={"/AmazonPhotos/6.jpg"} width={1000} height={1000}/>
 
-        <Image className="rounded-lg" src={"/AmazonPhotos/7.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/9.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/10.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/11.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/12.jpg"} width={1000} height={1000}/>
-        
-        
-        <Image className="rounded-lg" src={"/AmazonPhotos/8.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/AmazonPhotos/2.jpg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Village ministry moment" src={"/AmazonPhotos/7.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Fellowship and prayer" src={"/AmazonPhotos/9.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Church service gathering" src={"/AmazonPhotos/10.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Outreach team with villagers" src={"/AmazonPhotos/11.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Worship under open sky" src={"/AmazonPhotos/12.jpg"} width={1000} height={1000}/>
 
-        <Image className="rounded-lg" src={"/photos/2.jpeg"} width={1000} height={1000}/>
-        <Image className="rounded-lg" src={"/photos/3.jpeg"} width={1000} height={1000}/>
 
-        <Image className="col-span-2 rounded-lg"  src={"/AmazonPhotos/13.jpg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Evening prayer session" src={"/AmazonPhotos/8.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="New believers fellowship" src={"/AmazonPhotos/2.jpg"} width={1000} height={1000}/>
+
+        <Image className="rounded-lg" alt="Water baptism" src={"/photos/2.jpeg"} width={1000} height={1000}/>
+        <Image className="rounded-lg" alt="Community gathering in Christ" src={"/photos/3.jpeg"} width={1000} height={1000}/>
+
+        <Image className="col-span-2 rounded-lg" alt="JTLOW ministry wide gathering" src={"/AmazonPhotos/13.jpg"} width={1000} height={1000}/>
 
        </section>
     </main>

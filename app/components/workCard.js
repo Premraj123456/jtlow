@@ -4,7 +4,7 @@ export default function WorkCard({tag, title, description, img }) {
   return (
 <div className="space-y-3 shadow-xl py-5 rounded-xl">
 
-      <Image className="rounded-lg rounded-b-none" src={img} width={1000} height={1000} alt="alt"/>
+      <Image className="rounded-lg rounded-b-none" src={img} width={1000} height={1000} alt={`${title} - ${tag} ministry photo`} sizes="(max-width: 768px) 100vw, 33vw"/>
       <h3 className="bg-black ml-4 text-white w-fit px-2 py-0.5 rounded-lg text-sm font-black ">{tag}</h3>
 
       <h4 className="text-lg font-bold -mt-1 pl-4">{title}</h4>
