@@ -35,6 +35,16 @@ export default function About() {
         <p className="text-xl">To build churches in disconnected villages, form daily outreach teams, and share God’s Word through digital devices — including Bible-based AI films — to those we physically cannot reach.</p>
       </section>
 
+      <section className="mx-4 rounded-2xl bg-black p-6 text-center text-white md:mx-20 lg:mx-40">
+        <h2 className="font-extrabold text-2xl md:text-3xl">Our Mission Statement</h2>
+        <p className="mx-auto mt-4 max-w-3xl text-lg md:text-xl">
+          Jesus True Light of the World (JTLOW) is a Christian Trust founded in 2024 and legally registered in
+          Telangana, India (Trust Reg. No. 16/2024). Our mission is to preach the Gospel where no one else
+          reaches — planting churches in unreached villages, caring for orphans, widows and the needy, and sharing
+          God&apos;s Word through digital media including Bible-based AI films.
+        </p>
+      </section>
+
       <ThyagarajPaul />
 
       <section className="p-5 space-y-7 text-center py-11 px-14">
