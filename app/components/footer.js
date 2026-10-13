@@ -9,7 +9,7 @@ export default function Footer() {
     <h1 className="text-3xl font-bold text-white mb-4">JTLOW</h1>
     <p className="opacity-70">Founded 2024 · Trust Reg. No. 16/2024, Telangana, India</p>
     <p className="opacity-70">Bhupathipet Gudur Mahabaubabad, India , 506134</p>
-    <p className="opacity-70" >+91 6302524327</p>
+    <p className="opacity-70" >+91 7036024586</p>
     <p>jesustruelightoftheworld@gmail.com</p>
     <a href="https://youtube.com/@agape-love" target="_blank" rel="noopener noreferrer" aria-label="JTLOW on YouTube"><Youtube color="red"/></a>
     </section>

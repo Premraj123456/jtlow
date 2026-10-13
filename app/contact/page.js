@@ -34,7 +34,7 @@ export default function Contact() {
             
             {/* <h1 className="text-3xl font-bold text-white mb-4">JTLOW</h1> */}
             <div className="flex items-center gap-3"><Mail color="red" /><p className="opacity-70">jesustruelightoftheworld@gmail.com</p></div>
-            <div className="flex items-center gap-3"><Phone color="red" /><p className="opacity-70" >+91 6302524327</p></div>
+            <div className="flex items-center gap-3"><Phone color="red" /><p className="opacity-70" >+91 7036024586</p></div>
             <div className="flex items-center gap-3"> <Locate color="red" /><p className="opacity-70">Bhupathipet Gudur Mahabaubabad, India , 506134</p></div>
             
 
